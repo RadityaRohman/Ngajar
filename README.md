@@ -1,2 +1,1 @@
-# NGAJAR 
-# (Ngoding Sambil Belajar)
+# NGAJAR (Ngoding Sambil Belajar)
