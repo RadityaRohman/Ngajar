@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -64,32 +64,62 @@
 							class="navbar-nav w-100 justify-content-center align-items-center gap-3 fw-semibold"
 						>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Home</a>
+								<a class="nav-link active" aria-current="page" href="home.html"
+									>Home</a
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Artikel</a>
+								<a class="nav-link" href="artikel.html">Artikel</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Galeri</a>
+								<a class="nav-link" href="galeri.html">Galeri</a>
 							</li>
 						</ul>
-						<div class="d-flex justify-content-center">
-							<i class="bi bi-moon-stars"></i>
-							<li class="dropdown px-3">
-								<a
-									class="nav-link dropdown-toggle"
-									href="#"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									ID
-								</a>
-								<ul class="dropdown-menu dropdown-menu-end">
-									<li><a class="dropdown-item" href="#">ENG</a></li>
-								</ul>
-							</li>
-						</div>
+						<li class="nav-item dropdown">
+							<button
+								class="btn nav-link dropdown-toggle"
+								type="button"
+								id="dropdownMenuButtonLight"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								<i
+									class="bi bi-sun-fill theme-icon-active"
+									data-theme-icon-active="bi-sun-fill"
+								></i>
+							</button>
+							<ul
+								class="dropdown-menu dropdown-menu-end"
+								aria-labelledby="dropdownMenuButtonLight"
+							>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="light"
+									>
+										<i
+											class="bi bi-sun-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-sun-fill"
+										></i>
+										Light
+									</button>
+								</li>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="dark"
+									>
+										<i
+											class="bi bi-moon-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-moon-fill"
+										></i>
+										Dark
+									</button>
+								</li>
+							</ul>
+						</li>
 					</div>
 				</div>
 			</nav>
@@ -101,7 +131,9 @@
 					<h3 class="text-center w-50 m-auto fw-bold">
 						Dengarkan Harmoni Nusantara dengan Alat Musik Tradisional Indonesia
 					</h3>
-					<a class="btn btn-dark my-2">Explore Sekarang</a>
+					<a href="artikel.html" target="_blank" class="btn btn-dark my-2"
+						>Explore Sekarang</a
+					>
 				</div>
 				<div class="heroImgContainer">
 					<div class="hero-image text-center position-relative">
@@ -146,9 +178,7 @@
 						lengkap.
 					</p>
 				</div>
-				<div
-					class="right-side d-flex align-content-center bg-dark text-white rounded gap-2"
-				>
+				<div class="right-side d-flex align-content-center rounded gap-2">
 					<h1 class="fw-bold m-auto">34</h1>
 					<p class="w-75 lh-base m-auto">
 						Tersedia berbagai alat musik tradisional dari 34 provinsi yang ada
@@ -170,7 +200,7 @@
 							Berbagai Macam Koleksi Alat Musik Tradisional Indonesia Tersedia
 							di Galeri Kami
 						</h4>
-						<a href="#" class="text-white"
+						<a href="galeri.html" target="_blank" class="text-white"
 							>Cek Sekarang<i class="bi bi-arrow-right px-1"></i
 						></a>
 					</div>
@@ -211,13 +241,18 @@
 						/>
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Doli-doli Hagita</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Bonang.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Bonang</a
+								>
+							</h5>
 							<p class="card-text">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
-								minima. Perferendis excepturi voluptates, autem, quaerat
-								voluptatem nesciunt cum iusto beatae magni, velit esse?
-								Cupiditate officiis vitae modi, molestias doloribus
-								voluptatibus!
+								Alat musik bonang adalah alat musik pukul yang terbuat dari
+								bahan logam, seperti kuningan, perunggu atau besi. Ciri khas
+								alat musik ini...
 							</p>
 						</div>
 					</div>
@@ -231,13 +266,14 @@
 						/>
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Panting</h5>
+							<h5 class="card-title fw-bold">
+								<a href="Gambang Kromong.html" target="_blank"
+									>Gambang Kromong</a
+								>
+							</h5>
 							<p class="card-text">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
-								minima. Perferendis excepturi voluptates, autem, quaerat
-								voluptatem nesciunt cum iusto beatae magni, velit esse?
-								Cupiditate officiis vitae modi, molestias doloribus
-								voluptatibus!
+								Gambang kromong (atau ditulis gambang keromong) adalah sejenis
+								orkes yang memadukan gamelan dengan alat-alat musik Tionghoa...
 							</p>
 						</div>
 					</div>
@@ -251,20 +287,20 @@
 						/>
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Siter</h5>
+							<h5 class="card-title fw-bold">
+								<a href="Rebab.html" target="_blank">Rebab</a>
+							</h5>
 							<p class="card-text">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
-								minima. Perferendis excepturi voluptates, autem, quaerat
-								voluptatem nesciunt cum iusto beatae magni, velit esse?
-								Cupiditate officiis vitae modi, molestias doloribus
-								voluptatibus!
+								Alat musik rebab adalah alat musik yang dimainkan dengan cara
+								digesek dan sudah terkenal sejak zaman dulu sampai sekarang.
+								Rebab...
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="linkToArtikel float-end">
-				<a href="#" class="float-start text-black"
+				<a href="artikel.html" target="_blank" class="float-start text-black"
 					>Lihat Selengkapnya <i class="bi bi-arrow-right"></i
 				></a>
 			</div>
@@ -454,14 +490,16 @@
 				</p>
 				<p>
 					<a
-						href="#"
+						href="artikel.html"
+						target="_blank"
 						class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
 						>Artikel</a
 					>
 				</p>
 				<p>
 					<a
-						href="#"
+						href="galeri.html"
+						target="_blank"
 						class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
 						>Galeri</a
 					>
@@ -480,5 +518,6 @@
 			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 			crossorigin="anonymous"
 		></script>
+		<script src="../assets/js/script.js"></script>
 	</body>
 </html>

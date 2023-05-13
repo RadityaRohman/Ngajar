@@ -61,32 +61,62 @@
 							class="navbar-nav w-100 justify-content-center align-items-center gap-3 fw-semibold"
 						>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Home</a>
+								<a class="nav-link active" aria-current="page" href="home.html"
+									>Home</a
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Artikel</a>
+								<a class="nav-link" href="artikel.html">Artikel</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Galeri</a>
+								<a class="nav-link" href="galeri.html">Galeri</a>
 							</li>
 						</ul>
-						<div class="d-flex justify-content-center">
-							<i class="bi bi-moon-stars"></i>
-							<li class="dropdown px-3">
-								<a
-									class="nav-link dropdown-toggle"
-									href="#"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									ID
-								</a>
-								<ul class="dropdown-menu dropdown-menu-end">
-									<li><a class="dropdown-item" href="#">ENG</a></li>
-								</ul>
-							</li>
-						</div>
+						<li class="nav-item dropdown">
+							<button
+								class="btn nav-link dropdown-toggle"
+								type="button"
+								id="dropdownMenuButtonLight"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								<i
+									class="bi bi-sun-fill theme-icon-active"
+									data-theme-icon-active="bi-sun-fill"
+								></i>
+							</button>
+							<ul
+								class="dropdown-menu dropdown-menu-end"
+								aria-labelledby="dropdownMenuButtonLight"
+							>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="light"
+									>
+										<i
+											class="bi bi-sun-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-sun-fill"
+										></i>
+										Light
+									</button>
+								</li>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="dark"
+									>
+										<i
+											class="bi bi-moon-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-moon-fill"
+										></i>
+										Dark
+									</button>
+								</li>
+							</ul>
+						</li>
 					</div>
 				</div>
 			</nav>
@@ -217,5 +247,6 @@
 			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 			crossorigin="anonymous"
 		></script>
+		<script src="../assets/js/script.js"></script>
 	</body>
 </html>
