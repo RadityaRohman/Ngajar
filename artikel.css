@@ -1,3 +1,5 @@
+/* Font */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 * {
@@ -9,6 +11,8 @@
   text-decoration: none;
 }
 
+/* Header */
+
 header {
   text-align: center;
   margin-top: 2rem;
@@ -16,9 +20,7 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
-img {
-  width: 22rem;
-}
+/* Filter */
 
 .filter {
   margin: 2rem 2rem 2rem 4rem;
@@ -31,6 +33,8 @@ img {
   font-size: 1rem;
   margin-right: 2rem;
 }
+
+/* Filter Hover Underline Animation */
 
 .hover-underline-animation {
   display: inline-block;
@@ -56,14 +60,40 @@ img {
   transform-origin: bottom left;
 }
 
+/* Image */
+
+img {
+  width: 22rem;
+}
+
+/* Image Hover Opacity */
+
+img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+/* Article Container */
+
 .articles {
   font-family: "Montserrat", sans-serif;
   margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .articles a {
   color: #030303;
 }
+
+/* Individual Article */
 
 .article {
   max-width: 22rem;
@@ -73,18 +103,12 @@ img {
   color: #4f4f4f;
 }
 
-.articles-row {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
 .articles p,
 h3 {
   margin-bottom: 0.3rem;
 }
 
+/* Small phones (600px and below) */
 @media only screen and (max-width: 600px) {
   header {
     text-align: center;
@@ -94,7 +118,7 @@ h3 {
   }
 
   img {
-    width: 22rem;
+    width: 19rem;
   }
 
   .filter {
@@ -107,7 +131,7 @@ h3 {
     color: #030303;
     font-weight: 600;
     font-size: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 }
 
@@ -133,7 +157,7 @@ h3 {
     color: #030303;
     font-weight: 600;
     font-size: 1rem;
-    margin-right: 2rem;
+    max-width: 100%;
   }
 
   .article {
@@ -163,7 +187,8 @@ h3 {
     color: #030303;
     font-weight: 600;
     font-size: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    max-width: 100%;
   }
 }
 
