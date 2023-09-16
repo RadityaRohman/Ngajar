@@ -15,6 +15,10 @@
 
 /* Header */
 
+a {
+	color: var(--data-bs-color);
+}
+
 header {
 	text-align: center;
 	margin-top: 2rem;

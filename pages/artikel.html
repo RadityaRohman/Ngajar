@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -35,6 +35,7 @@
 
 		<!-- Navbar -->
 		<div class="container">
+			<!-- Navbar -->
 			<nav class="navbar navbar-expand-lg navbar-fixed-top">
 				<div class="container-fluid">
 					<img
@@ -57,32 +58,62 @@
 							class="navbar-nav w-100 justify-content-center align-items-center gap-3 fw-semibold"
 						>
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="#">Home</a>
+								<a class="nav-link active" aria-current="page" href="home.html"
+									>Home</a
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Artikel</a>
+								<a class="nav-link" href="artikel.html">Artikel</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Galeri</a>
+								<a class="nav-link" href="galeri.html">Galeri</a>
 							</li>
 						</ul>
-						<div class="d-flex justify-content-center">
-							<i class="bi bi-moon-stars"></i>
-							<li class="dropdown px-3">
-								<a
-									class="nav-link dropdown-toggle"
-									href="#"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									ID
-								</a>
-								<ul class="dropdown-menu dropdown-menu-end">
-									<li><a class="dropdown-item" href="#">ENG</a></li>
-								</ul>
-							</li>
-						</div>
+						<li class="nav-item dropdown">
+							<button
+								class="btn nav-link dropdown-toggle"
+								type="button"
+								id="dropdownMenuButtonLight"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								<i
+									class="bi bi-sun-fill theme-icon-active"
+									data-theme-icon-active="bi-sun-fill"
+								></i>
+							</button>
+							<ul
+								class="dropdown-menu dropdown-menu-end"
+								aria-labelledby="dropdownMenuButtonLight"
+							>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="light"
+									>
+										<i
+											class="bi bi-sun-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-sun-fill"
+										></i>
+										Light
+									</button>
+								</li>
+								<li>
+									<button
+										class="dropdown-item d-flex align-items-center"
+										type="button"
+										data-bs-theme-value="dark"
+									>
+										<i
+											class="bi bi-moon-fill theme-icon-active me-2 opacity-50"
+											data-theme-icon-active="bi-moon-fill"
+										></i>
+										Dark
+									</button>
+								</li>
+							</ul>
+						</li>
 					</div>
 				</div>
 			</nav>
@@ -97,12 +128,6 @@
 
 			<!-- Filter/Sort Bar Start -->
 
-			<section class="filter border-bottom border-dark">
-				<a href="#" class="hover-underline-animation">All</a>
-				<a href="#" class="hover-underline-animation">Terbaru</a>
-				<a href="#" class="hover-underline-animation">Terfavorit</a>
-			</section>
-
 			<!-- Filter/Sort Bar End -->
 			<div class="row">
 				<div class="col-sm-12 col-md-6 col-lg-3">
@@ -110,7 +135,14 @@
 						<img src="../assets/img/Angklung.svg" alt="Angklung" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Angklung</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Angklung.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Angklung</a
+								>
+							</h5>
 							<p class="card-text">
 								Angklung adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Jawa Barat. Ketahui sejarahnya, cara memainkannya,
@@ -127,7 +159,14 @@
 						/>
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Sasando</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Sasando.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Sasando</a
+								>
+							</h5>
 							<p class="card-text">
 								Sasando adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari NTT. Ketahui sejarahnya, cara memainkannya, dan
@@ -141,7 +180,14 @@
 						<img src="../assets/img/Gambang Kromong.svg" alt="GambangKromong" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Gambang Kromong</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Gambang Kromong.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Gambang Kromong</a
+								>
+							</h5>
 							<p class="card-text">
 								Gambang Kromong adalah sejenis orkes yang berasal dari DKI
 								Jakarta. Ketahui sejarahnya, cara memainkannya, dan detail
@@ -155,7 +201,14 @@
 						<img src="../assets/img/Kolintang.svg" alt="Kolintang" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Kolintang</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Tifa.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Kolintang</a
+								>
+							</h5>
 							<p class="card-text">
 								Kolintang adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Sulawesi Utara. Ketahui sejarahnya, cara
@@ -169,7 +222,14 @@
 						<img src="../assets/img/Tifa.svg" alt="Tifa" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Tifa</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Tifa.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Tifa</a
+								>
+							</h5>
 							<p class="card-text">
 								Tifa adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Maluku dan Papua. Ketahui sejarahnya, cara
@@ -183,7 +243,14 @@
 						<img src="../assets/img/Bonang.svg" alt="Bonang" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Kolintang</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Bonang.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Bonang</a
+								>
+							</h5>
 							<p class="card-text">
 								Bonang adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Jawa Timur. Ketahui sejarahnya, cara memainkannya,
@@ -197,7 +264,14 @@
 						<img src="../assets/img/Gamelan.svg" alt="Gamelan" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Gamelan</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Gamelan.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Gamelan</a
+								>
+							</h5>
 							<p class="card-text">
 								Gamelan adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Jawa Tengah. Ketahui sejarahnya, cara memainkannya,
@@ -211,7 +285,14 @@
 						<img src="../assets/img/Serunai.svg" alt="Serunai" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Serunai</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Serunai.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Serunai</a
+								>
+							</h5>
 							<p class="card-text">
 								Serunai, atau juga disebut puput serunai, adalah nama alat musik
 								tiup yang dikenal di Indonesia sebagai alat musik tradisional
@@ -225,7 +306,14 @@
 						<img src="../assets/img/Taganing.svg" alt="Taganing" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Taganing</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Taganing.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Taganing</a
+								>
+							</h5>
 							<p class="card-text">
 								Taganing adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Sumatra Utara. Ketahui sejarahnya, cara
@@ -239,7 +327,14 @@
 						<img src="../assets/img/Suling Bambu.svg" alt="Suling Bambu" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Suling Bambu</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Suling.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Suling Bambu</a
+								>
+							</h5>
 							<p class="card-text">
 								Suling bambu adalah salah satu alat musik terkenal Indonesia
 								yang berasal dari Jawa Barat. Ketahui sejarahnya, cara
@@ -253,7 +348,14 @@
 						<img src="../assets/img/Rebab.svg" alt="Rebab" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Rebab</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Rebab.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Rebab</a
+								>
+							</h5>
 							<p class="card-text">
 								Rebab adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Jawa Barat. Ketahui sejarahnya, cara memainkannya,
@@ -267,7 +369,14 @@
 						<img src="../assets/img/Sape.svg" alt="Sape" />
 						<div class="card-body">
 							<p class="card-text">April 20, 2023</p>
-							<h5 class="card-title fw-bold">Serunai</h5>
+							<h5 class="card-title fw-bold">
+								<a
+									href="Sape.html"
+									target="_blank"
+									class="link-underline-opacity-0"
+									>Sape</a
+								>
+							</h5>
 							<p class="card-text">
 								Sape adalah salah satu alat musik terkenal Indonesia yang
 								berasal dari Kalimantan Timur. Ketahui sejarahnya, cara
@@ -320,5 +429,6 @@
 			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
 			crossorigin="anonymous"
 		></script>
+		<script src="../assets/js/script.js"></script>
 	</body>
 </html>

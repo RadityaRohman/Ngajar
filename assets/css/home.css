@@ -7,6 +7,11 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
+.hero-section a {
+	background-color: var(--bs-body-color);
+	color: var(--bs-body-bg);
+}
+
 .hero-img {
 	max-height: 100%;
 	display: flex;
@@ -32,6 +37,8 @@ body {
 
 .right-side {
 	padding: 0 40px;
+	background-color: var(--bs-body-color);
+	color: var(--bs-body-bg);
 }
 
 .right-side h1 {
@@ -57,7 +64,7 @@ body {
 }
 
 .backgroundSuaraNusantara {
-	background-color: #121212;
+	background-color: var(--bs-body-bg);
 	height: 36.7rem;
 }
 
@@ -67,6 +74,10 @@ body {
 
 .galeri-link {
 	background-color: #121212;
+}
+
+.card-body a {
+	color: var(--bs-body-color);
 }
 
 .latarBelakang {
